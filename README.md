@@ -6,7 +6,7 @@ This code is a chatbot that can process natural language requests, generate resp
 
 To use this code, you need to first obtain an API key from OpenAI. You can create an account and generate a key on their [website](https://openai.com/). Once you have your key, add it to the code by replacing `API_KEY` in the `openai.api_key` variable.
 
-After that, you can run the code by navigating to the directory where the file is located and running `python filename.py` in the command line. 
+After that, you can run the code by navigating to the directory where the file is located and running ` python3 AINEURALBODY.py` in the command line. 
 
 ## What it does
 
@@ -58,6 +58,6 @@ chatgpt.train(dataset)
 
 ### Running the Code
 
-To run the code, navigate to the directory where `filename.py` is located and run `python filename.py` in the command line. Once the code is running, it will prompt you to provide natural language input. You can enter any question or request, and the chatbot will respond with a generated message and/or perform a movement using its motors. 
+To run the code, navigate to the directory where `AINEURALBODY.py` is located and run `python3 AINEURALBODY.py` in the command line. Once the code is running, it will prompt you to provide natural language input. You can enter any question or request, and the chatbot will respond with a generated message and/or perform a movement using its motors. 
 
 Note that the chatbot requires access to a webcam in order to work properly. When the code is running, it will open up a window showing the video feed from the camera. You can close this window at any time by pressing `q`.
